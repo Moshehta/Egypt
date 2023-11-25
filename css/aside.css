@@ -1,0 +1,25 @@
+aside .parent {
+  position: relative;
+}
+aside .parent2 {
+  position: fixed;
+  z-index: 90;
+  top: 200px;
+  right: 20px;
+}
+.aside-icon {
+  width: 80px;
+  height: 80px;
+}
+.aside-icon a {
+  text-decoration: none;
+  color: #04515f !important;
+}
+.aside-icon a i {
+  text-align: center;
+  font-size: 60px;
+  line-height: 80px;
+}
+.aside-icon a i:hover {
+  opacity: 0.6;
+}

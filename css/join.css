@@ -1,0 +1,10 @@
+.logoicon {
+  height: 80px;
+  width: 80px;
+  box-shadow: -3px -3px 20px 10px rgb(201, 198, 241);
+  border-radius: 50%;
+  transition: 1s;
+}
+.logoicon:hover {
+  opacity: 0.5;
+}

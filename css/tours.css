@@ -1,0 +1,17 @@
+.cardover {
+  position: relative;
+  min-height: 450px;
+}
+.card-img-top {
+  height: 380px;
+}
+.cardover .btn {
+  position: absolute;
+  z-index: 10;
+  bottom: 55px;
+  right: 13px;
+}
+/*************** */
+.fixed-image2 {
+  background-image: url(../imgs/x9.jpg);
+}

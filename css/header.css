@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ebedf1;
+  perspective: 700px;
+}
+.egypt {
+  border-right: 1px solid #ccc;
+  padding-right: 3px;
+  text-align: center;
+  font-weight: bold;
+  background: -webkit-linear-gradient(90deg, #00dbde, #fc00ff);
+  font-size: 22px;
+  font-weight: bolder;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s;
+  position: relative;
+}
+.egypt:hover {
+  text-shadow: 0px 0px 30px rgb(152, 152, 152);
+}
+/******************** */
+.pp {
+  transform-style: preserve-3d;
+}
+#navbarContent ul li a,
+#navbarContent ul li button {
+  font-size: 20px;
+  transition: all 0.5s;
+}
+#navbarContent ul li a:hover {
+  transform: translateZ(50px) !important;
+  text-shadow: 0px 0px 30px rgb(89, 89, 89) !important;
+}
+#navbarContent ul li button:hover {
+  transform: translateZ(10px);
+  text-shadow: 0px 0px 30px rgb(81, 81, 81) !important;
+}
+#navbarContent ul li a:hover span,
+#navbarContent ul li button:hover span {
+  color: #fc00ff;
+}
+.nav-link {
+  border: 2px solid rgba(var(--bs-info-rgb), var(--bs-border-opacity)) !important;
+}
+

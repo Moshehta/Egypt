@@ -1,0 +1,35 @@
+.card .card-body {
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.title {
+  background: -webkit-linear-gradient(90deg, #00dbde, #fc00ff);
+  font-size: 22px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s;
+}
+/******************** */
+.acc {
+  background-color: cadetblue;
+}
+/**************/
+.link {
+  text-decoration: none;
+  color: #04515f !important;
+  font-style: 18px !important;
+}
+.link:hover {
+  opacity: 0.5;
+}
+/***** */
+.fixed-image1 {
+  background-image: url(../imgs/img9.jpg);
+}
+.fixed-img {
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+}
